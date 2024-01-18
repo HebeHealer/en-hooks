@@ -11,10 +11,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "encodeHooks": ["./packages/hooks/src/index.ts"],
-      "encode-hooks": ["./packages/hooks/src/index.ts"],
-      "encodeHooks/lib/*": ["./packages/hooks/src/*"],
-      "encode-hooks/lib/*": ["./packages/hooks/src/*"]
+      "en-hooks": ["./packages/hooks/src/index.ts"],
+      "hooks/lib/*": ["./packages/hooks/src/*"],
+      "en-hooks/lib/*": ["./packages/hooks/src/*"]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
