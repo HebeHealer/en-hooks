@@ -1,0 +1,28 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "init": "pnpm install && pnpm run build",
+    "start": "pnpm run dev",
+    "en-lint-cli-scan": "en-lint-cli scan",
+    "en-lint-cli-fix": "en-lint-cli fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "en-lint-cli commit-file-scan",
+      "commit-msg": "en-lint-cli commit-msg-scan"
+    }
+  },
+  "devDependencies": {
+    "en-lint-cli": "^1.0.14",
+    "lerna": "^8.0.2"
+  },
+  "dependencies": {}
+}

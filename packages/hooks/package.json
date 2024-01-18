@@ -1,0 +1,19 @@
+{
+  "name": "hooks",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "hebehealer@163.com <hebeleader@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/hooks.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/hooks.test.js"
+  }
+}
