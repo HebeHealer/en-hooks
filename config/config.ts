@@ -6,7 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  outputPath: 'docs',
+  // outputPath: 'docs', // git action ci
   publicPath: '/en-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
