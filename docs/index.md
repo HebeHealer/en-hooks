@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /en-hooks/short-logo.png
+  image:
   desc: React 业务 Hooks
   actions:
     - text: 指南
